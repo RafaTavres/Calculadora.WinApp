@@ -35,12 +35,12 @@
             // btnSairTelaHistorico
             // 
             btnSairTelaHistorico.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            btnSairTelaHistorico.BackColor = SystemColors.InactiveCaption;
+            btnSairTelaHistorico.BackColor = SystemColors.Info;
             btnSairTelaHistorico.FlatAppearance.MouseDownBackColor = Color.FromArgb(192, 192, 255);
             btnSairTelaHistorico.FlatStyle = FlatStyle.System;
             btnSairTelaHistorico.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnSairTelaHistorico.ForeColor = SystemColors.ActiveCaptionText;
-            btnSairTelaHistorico.Location = new Point(26, 378);
+            btnSairTelaHistorico.Location = new Point(26, 328);
             btnSairTelaHistorico.Name = "btnSairTelaHistorico";
             btnSairTelaHistorico.Size = new Size(83, 32);
             btnSairTelaHistorico.TabIndex = 0;
@@ -50,13 +50,13 @@
             // 
             // hisotricoListBox
             // 
-            hisotricoListBox.BackColor = SystemColors.ScrollBar;
-            hisotricoListBox.Font = new Font("Showcard Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            hisotricoListBox.BackColor = SystemColors.Info;
+            hisotricoListBox.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             hisotricoListBox.FormattingEnabled = true;
-            hisotricoListBox.ItemHeight = 18;
+            hisotricoListBox.ItemHeight = 22;
             hisotricoListBox.Location = new Point(26, 10);
             hisotricoListBox.Name = "hisotricoListBox";
-            hisotricoListBox.Size = new Size(390, 328);
+            hisotricoListBox.Size = new Size(289, 312);
             hisotricoListBox.TabIndex = 2;
             hisotricoListBox.SelectedIndexChanged += hisotricoListBox_SelectedIndexChanged;
             // 
@@ -64,11 +64,11 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonShadow;
-            ClientSize = new Size(449, 422);
+            BackColor = SystemColors.WindowText;
+            ClientSize = new Size(339, 385);
             Controls.Add(hisotricoListBox);
             Controls.Add(btnSairTelaHistorico);
-            Font = new Font("Stencil", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Font = new Font("Stencil", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "TelaHistorico";
             Text = "Historico";

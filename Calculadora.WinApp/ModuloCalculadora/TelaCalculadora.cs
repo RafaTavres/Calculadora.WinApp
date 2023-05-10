@@ -178,5 +178,11 @@ namespace Calculadora.WinApp
         {
             calculadoraRepository.MostrarHistorico();
         }
+
+        private void btnApagaTudo_Click(object sender, EventArgs e)
+        {
+            ResetaNumeros();
+            ResetaInformacoesDoLabel();
+        }
     }
 }
