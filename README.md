@@ -5,6 +5,6 @@ Aplicativo de Calculadora tarefa da Academia do Programador
  ## Requistos
     Realizar todas as Operacões básicas com 2 números,
  ## Funcionalidades
- Realiza as quatro Operacões básicas com 2 números,
- Mostra o Histórico das Ações Realizadas,
- Realiza Operações com números decimais.
+    Realiza as quatro Operacões básicas com 2 números,
+    Mostra o Histórico das Ações Realizadas,
+    Realiza Operações com números decimais.
